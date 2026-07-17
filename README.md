@@ -97,7 +97,19 @@ Frontend:
 https://task-manager-frontend-qwuc.onrender.com
 Backend API:
 https://task-manager-api-a873.onrender.com
+## Application Preview
 
+### Login Page
+
+![Login Page](./screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Task Management
+
+![Task Management](./screenshots/tasks.png)
 
 
 ## Installation and Setup
