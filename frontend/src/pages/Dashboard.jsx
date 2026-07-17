@@ -47,7 +47,7 @@ const [loading, setLoading] = useState(true);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 const [category, setCategory] = useState("");
-const [priority, setPriority] = useState("");
+const [priority, setPriority] = useState("Medium");
 const [dueDate, setDueDate] = useState("");
 const [stats, setStats] = useState({});
 
@@ -463,7 +463,6 @@ return (
         value={filterPriority}
         onChange={(e)=>setFilterPriority(e.target.value)}
     >
-        <option value="All">All Priorities</option>
         <option value="High">High</option>
         <option value="Medium">Medium</option>
         <option value="Low">Low</option>
