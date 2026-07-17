@@ -9,7 +9,7 @@ const authRoutes = require("./Routes/authRoutes");
 const taskRoutes = require("./Routes/taskroutes");
 
 const app = express();
-
+console.log("MONGO_URI VALUE:", process.env.MONGO_URI);
 connectDB();
 
 app.use(
