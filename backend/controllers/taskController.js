@@ -24,7 +24,7 @@ console.log("USER:", req.user);
 
       category,
 
-      priority || "Medium",
+      priority: priority || "Medium",
 
       dueDate,
 
