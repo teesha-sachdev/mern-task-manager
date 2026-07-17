@@ -3,6 +3,7 @@ TaskFlow is a full-stack task management application built using the MERN stack.
 The project demonstrates the development of a complete production-ready web application with a React frontend, Node.js REST API backend, and MongoDB database integration.
 
 
+
 ## Project Highlights
 - Full-stack MERN architecture
 - Secure JWT-based authentication
@@ -11,6 +12,7 @@ The project demonstrates the development of a complete production-ready web appl
 - Responsive and modern dashboard interface
 - Cloud deployment using Render
 - MongoDB Atlas database integration
+
 
 
 ## Features
@@ -35,7 +37,8 @@ Productivity Features
 - Organized dashboard view
 - Task status tracking
 
----
+
+
 
 ## Technology Stack
 Frontend
@@ -58,6 +61,7 @@ Deployment
 - Render
 
 
+
 ## System Architecture
 User
 |
@@ -68,6 +72,7 @@ Axios API Requests
 Express.js Backend
 |
 MongoDB Database
+
 
 
 ## Project Structure
@@ -84,6 +89,7 @@ TaskFlow
 |-- routes
 |-- middleware
 |-- server.js
+
 
 
 ## Live Demo
@@ -119,11 +125,13 @@ Backend: npm start
 Frontend:npm run dev
 
 
+
 ## Security Implementation
 - Password encryption using secure authentication methods
 - JWT-based user verification
 - Protected API routes
 - User-specific database operations
+
 
 
 ## Future Enhancements
@@ -135,6 +143,4 @@ Frontend:npm run dev
 
 ---
 
-## Author
-Teesha Sachdev
-MERN Stack Developer
+
