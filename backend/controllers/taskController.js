@@ -2,9 +2,11 @@ const Task = require("../models/task");
 
 
 // Add Task
+
 const addTask = async (req, res) => {
   try {
-
+console.log("ADD TASK BODY:", req.body);
+console.log("USER:", req.user);
     const {
       title,
       description,
@@ -37,6 +39,7 @@ const addTask = async (req, res) => {
 
 
   } catch (error) {
+    console.log("ADD TASK ERROR:", error);
 
     res.status(500).json({
       message: error.message
